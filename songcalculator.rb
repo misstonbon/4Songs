@@ -1,4 +1,4 @@
-puts "Hello and welcome! I am Adie, a song calculator!\n
+puts "Hello and welcome! I am Tanja's song calculator!\n
 I will analyze four songs of your choice. Please follow the prompts carefully.\n\n
 Let's get started!\n\n"
 
@@ -37,4 +37,4 @@ end
 puts "You have listened to #{grand_total} seconds of sweet tunes!\n\n"
 longest_song = songs.max_by { |winner| winner[:total_time] }
 puts "Looks like your favorite song is #{longest_song[:song_name]}. You have listened to it the longest! \n\n "
-puts "Adie was made with love by Tanja Stroble. Thank you for using it!"
+puts "This calculator was made with love by Tanja Stroble. Thank you for using it!"
